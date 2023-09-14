@@ -69,16 +69,9 @@ if (isset($_POST['submit'])) {
 </html>
 
 
-<?php // If the form has been submitted, display the result
-                    if (isset($result)) {
-                
+<?php 
+ if (isset($result)) {              
+     echo "Result: $result";                
+ }
 
-                
-                    
-                    echo "Result: $result";
-                  
-                
-                   
-                }
-
-            ?>
+?>
